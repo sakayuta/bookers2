@@ -22,7 +22,7 @@
               <% end %>
             </td>
             <td>
-              <%= link_to book.title, book_path(book.id), class: 'book_13832' %>
+              <%= link_to book.title, book_path(book.id), class: "book_#{book.id}" %>
             </td>
             <td>
               <%= book.body %>
